@@ -1,0 +1,14 @@
+fastapi==0.114.2
+uvicorn[standard]==0.30.6
+SQLAlchemy==2.0.36
+pydantic==1.10.18
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.12
+celery==5.4.0
+redis==5.0.8
+Pillow==10.4.0
+# Optional heavy models - install when GPU/space available
+# diffusers==0.31.0
+# torch==2.4.1
+# realesrgan==0.3.0
